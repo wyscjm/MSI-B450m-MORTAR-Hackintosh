@@ -16,11 +16,20 @@ Opencore 版本：0.6.7
 
 ### 配置清单
 
-| 类型 | 型号              |
-| ---- | ----------------- |
-| 主板 | 微星 B450m 迫击炮 |
-| CPU  | AMD R5 3600x      |
-| 显卡 | 蓝宝石 RX 570     |
+| 类型 | 型号                                                                           |
+| ---- | -----------------                                                              |
+| 主板 | git checkout -b amd_2600x__b450_f_gaming                                       |
+| CPU  | AMD R5 2600x                                                                   |
+| 显卡 | 华硕（ASUS）DUAL-GeForce GTX1060-O6G 1569-1809MHz GDDR5 雪豹系列gtx1060 6g显卡 |
+
+### download list
+
+follow https://dortania.github.io/OpenCore-Install-Guide/AMD/zen.html
+https://post.smzdm.com/p/a259rv2d/
+
+
+
+https://github.com/dortania/Getting-Started-With-ACPI
 
 
 
@@ -30,7 +39,6 @@ Opencore 版本：0.6.7
 
 * 前后端声音输出
 * 所有USB端口
-* 有线网络
 * iMessage、FaceTime
 * 独显硬件加速
 * 睡眠/唤醒（键鼠不能接到后面的`USB3.0`端口）
@@ -38,7 +46,7 @@ Opencore 版本：0.6.7
 ##### 不能使用
 
 * 内置麦克风（使用USB/蓝牙音箱的麦克风或者使用`VoodooHDA`解决)
-
+* 有线网络
 
 
 ### BIOS推荐设置
